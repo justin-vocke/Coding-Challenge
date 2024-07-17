@@ -1,31 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\ClarkCodingChallenge.Tests.csproj": {}
+    "C:\\Users\\Justin Vocke\\source\\repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\ClarkCodingChallenge.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\ClarkCodingChallenge.Tests.csproj": {
+    "C:\\Users\\Justin Vocke\\source\\repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\ClarkCodingChallenge.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\ClarkCodingChallenge.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Justin Vocke\\source\\repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\ClarkCodingChallenge.Tests.csproj",
         "projectName": "ClarkCodingChallenge.Tests",
-        "projectPath": "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\ClarkCodingChallenge.Tests.csproj",
-        "packagesPath": "C:\\Users\\slieffers\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\slieffers\\Source\\Repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\obj\\",
+        "projectPath": "C:\\Users\\Justin Vocke\\source\\repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\ClarkCodingChallenge.Tests.csproj",
+        "packagesPath": "C:\\Users\\Justin Vocke\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Justin Vocke\\source\\repos\\Coding-Challenge\\ClarkCodingChallenge.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\slieffers\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Justin Vocke\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "https://nuget.org": {},
-          "https://tfs.clarkinc.biz/DefaultCollection/_packaging/c2aa131e-9bf5-4fdf-9bbe-81bcda5b3920/nuget/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -62,7 +64,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

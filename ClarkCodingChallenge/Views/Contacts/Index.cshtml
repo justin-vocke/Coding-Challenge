@@ -1,7 +1,12 @@
-﻿@{
+﻿@model Contact
+@{
     ViewData["Title"] = "Contacts Page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
+</div>
+<div class="col-6 text-end">
+    <a asp-action="AddContact" class="btn btn-outline-primary"><i class="bi bi-plus-square"></i> Add New Contact</a>
+
 </div>
