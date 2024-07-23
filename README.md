@@ -1,4 +1,5 @@
 Notes on what I ran out of time to implement/refactor:
+
 1.) Use a ContactDto instead of passing Contact model to/from the controller. 
 If Contact was an EF object mapped to a database, it's bad practice to send such an object and should be converted (manually or with library like AutoMapper) to a DTO that contains
 only the properties we want to send/receive in the API.
