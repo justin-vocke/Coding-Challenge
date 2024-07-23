@@ -1,3 +1,16 @@
+Notes on what I ran out of time to implement/refactor:
+1.) Use a ContactDto instead of passing Contact model to/from the controller. 
+If Contact was an EF object mapped to a database, it's bad practice to send such an object and should be converted (manually or with library like AutoMapper) to a DTO that contains
+only the properties we want to send/receive in the API.
+
+2.) Add a rate limiter. This could be with .NET Core's built-in rate limiter. 
+
+3.) Use a better temporary storage method than having the IContactService and IRepository<Contact> registered as Singleton objects. If I were using the 
+repository to access a database I wouldn't use a Singleton as this can cause concurrency issues. 
+
+4.) Add some business logic to the ContactService (like no duplicate email subscriptions) as right now it's basically duplicating the methods in IRepository<Contact> and essentially functions as an unnecessary wrapper around that repository.
+
+
 # Coding-Challenge
 The following should take approximately 2 hours. If you find that you are not going to complete all the requirements in that time, note where and how you would have addressed them in the code. You will also have an opportunity to discuss these points.
 The template code to get you started is located at https://github.com/clark-marketplace/Coding-Challenge
